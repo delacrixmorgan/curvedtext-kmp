@@ -1,9 +1,6 @@
 # CurvedText - KMP Curved TextView 🌈
 
 ![Maven Central Version](https://img.shields.io/maven-central/v/com.dontsaybojio/curvedtext?color=%234c1)
-![Kotlin](https://img.shields.io/badge/Kotlin-2.3.20-7F52FF?logo=kotlin&logoColor=white)
-![Compose Multiplatform](https://img.shields.io/badge/Compose%20Multiplatform-1.10.3-4285F4?logo=jetpackcompose&logoColor=white)
-![License](https://img.shields.io/badge/License-GPL%20v3-blue.svg)
 
 A **Kotlin Multiplatform** Compose library that lets you render text curved along a circular arc —
 like a rainbow ☀️ or a frown 🙃. Works across Android, iOS, Desktop, and WebAssembly!
