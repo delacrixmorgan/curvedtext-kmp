@@ -23,6 +23,7 @@ import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.unit.Density
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.TextUnit
+import kotlin.math.PI
 import kotlin.math.abs
 import kotlin.math.cos
 import kotlin.math.sin
@@ -155,7 +156,7 @@ private fun calculateRotatedBounds(
     height: Float,
     rotationDegrees: Float
 ): RotatedBounds {
-    val rotationRadians = Math.toRadians(rotationDegrees.toDouble())
+    val rotationRadians = rotationDegrees.toDouble() * (PI / 180.0)
     val cos = cos(rotationRadians).toFloat()
     val sin = sin(rotationRadians).toFloat()
 
@@ -247,9 +248,9 @@ private fun calculateCurveData(
 
             // Calculate rotation angle (tangent to the circle)
             val rotation = if (radiusPx > 0) {
-                Math.toDegrees(charCenterAngle.toDouble()).toFloat()
+                (charCenterAngle.toDouble() * (180.0 / PI)).toFloat()
             } else {
-                Math.toDegrees(-charCenterAngle.toDouble()).toFloat()
+                (-charCenterAngle.toDouble() * (180.0 / PI)).toFloat()
             }
 
             characterPositions.add(
