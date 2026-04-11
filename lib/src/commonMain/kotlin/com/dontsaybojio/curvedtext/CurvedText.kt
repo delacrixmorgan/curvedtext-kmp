@@ -1,4 +1,4 @@
-package com.dontsabojio.curvedtext
+package com.dontsaybojio.curvedtext
 
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.layout.size
