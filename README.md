@@ -48,6 +48,8 @@ commonMain.dependencies {
 
 ### Basic upward curve (rainbow 🌈)
 
+![upward](screenshots/1_upward.png)
+
 ```kotlin
 CurvedText(
     text = "Hello Rainbow Text!",
@@ -56,6 +58,8 @@ CurvedText(
 ```
 
 ### Downward curve (frown 🙃)
+
+![downward](screenshots/2_downward.png)
 
 ```kotlin
 CurvedText(
@@ -66,6 +70,8 @@ CurvedText(
 ```
 
 ### With custom style
+
+![fonts](screenshots/3_fonts.png)
 
 ```kotlin
 CurvedText(
@@ -79,6 +85,8 @@ CurvedText(
 ```
 
 ### Mixing individual parameters
+
+![length](screenshots/4_length.png)
 
 ```kotlin
 CurvedText(
