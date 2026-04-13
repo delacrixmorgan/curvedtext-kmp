@@ -23,7 +23,7 @@ mavenPublishing {
         licenses {
             license {
                 name.set("GNU General Public License v3.0")
-                url.set("https://github.com/delacrixmorgan/curvedtext/blob/main/LICENSE.md")
+                url.set("https://github.com/delacrixmorgan/curvedtext-kmp/blob/main/LICENSE.md")
             }
         }
         developers {
